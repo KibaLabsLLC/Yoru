@@ -17,14 +17,9 @@ executable('kibaos-welcome', sources,
 )
 
 # Install desktop file
-desktop_file = import('gnome')
-desktop_file.install_app(
+install_data(
     'welcome.desktop',
-    name: 'Welcome to KibaOS',
-    exec: 'kibaos-welcome',
-    icon: 'start-here-symbolic',
-    categories: ['System', 'Settings', 'GTK'],
-    startup_notify: true
+    install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
 # Install CSS
