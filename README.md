@@ -182,10 +182,10 @@ The welcome app uses custom CSS that matches the KibaOS theme. To change the app
 
 The welcome app is designed to work with both KibaOS variants:
 
-### x86_64 (Cutefish OS)
+### x86_64 (Budgie Desktop)
 - Full support for all features
 - Optimized for desktop/laptop use
-- Uses Cutefish-specific settings commands
+- Uses Budgie-specific settings commands
 
 ### ARM (Budgie Desktop)
 - Full support for all features
@@ -231,7 +231,6 @@ The welcome app integrates with KibaOS in several ways:
 
 ### Settings Integration
 The app can launch the appropriate settings application based on the desktop environment:
-- Cutefish: `cutefish-settings`
 - Budgie: `budgie-desktop-settings`
 - Fallback: `kibaos-settings`
 
