@@ -1,4 +1,4 @@
-# KibaOS Welcome Application
+# KibaOS Welcome Application (Yoru)
 
 A user-friendly onboarding experience for new KibaOS users, designed to provide a warm welcome and quick access to essential system features.
 
